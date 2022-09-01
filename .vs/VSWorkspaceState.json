@@ -2,8 +2,10 @@
   "ExpandedNodes": [
     "",
     "\\dist",
-    "\\src"
+    "\\src",
+    "\\src\\images",
+    "\\webpack_tempate"
   ],
-  "SelectedNode": "\\babel.config.js",
+  "SelectedNode": "\\src",
   "PreviewInSolutionExplorer": false
 }
