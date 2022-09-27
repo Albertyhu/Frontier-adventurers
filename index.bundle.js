@@ -467,7 +467,7 @@ module.exports = __webpack_require__.p + "1555c4c8eb18a2ca8f85.jpg";
 /***/ ((module, __unused_webpack_exports, __webpack_require__) => {
 
 "use strict";
-module.exports = __webpack_require__.p + "876de98ff4c5f46131b7.jpg";
+module.exports = __webpack_require__.p + "4f04f1e6893a5e693e7f.jpg";
 
 /***/ }),
 
