@@ -1,19 +1,25 @@
 const slides = document.querySelectorAll(".slide");
 
-// loop through slides and set each slides translateX
-slides.forEach((slide, indx) => {
-    slide.style.transform = `translateX(${indx * 100}%)`;
-});
 
 // select next slide button
 const nextSlide = document.querySelector(".btn-next");
 
-// current slide counter
-let curSlide = 0;
+
 // maximum number of slides
 let maxSlide = slides.length - 1;
-
+// current slide counter
+//let curSlide = 0;
+let curSlide = Math.round(maxSlide / 2);
 // add event listener and navigation functionality
+// loop through slides and set each slides translateX
+//slides.forEach((slide, indx) => {
+//    slide.style.transform = `translateX(${indx * 100}%)`;
+//});
+
+slides.forEach((slide, indx) => {
+    slide.style.transform = `translateX(${(indx - curSlide) * 100}%)`;
+});
+
 nextSlide.addEventListener("click", function () {
     // check if current slide is the last and reset current slide
     if (curSlide === maxSlide) {
