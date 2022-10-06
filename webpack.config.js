@@ -72,6 +72,7 @@ module.exports = {
             title: 'Custom Template',
             template: './src/home.html',
             minify: true,
+            favicon: './src/images/Logo.png'
         }),
     ],
 

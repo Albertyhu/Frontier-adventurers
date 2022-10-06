@@ -1,0 +1,57 @@
+#MobileMenu {
+    position: fixed;
+    right: -200px;
+    left: auto;
+    height: 100%;
+    width: 200px;
+    background-color: #000000;
+    color: #ffffff;
+    z-index: 99;
+}
+
+.StartingPosition {
+    transform: translateX(200px);
+    display: none;
+}
+
+.OpenMenu {
+    transform: translateX(-200px);
+    transition: transform 2s;
+}
+
+.CloseMenu {
+    transform: translateX(200px);
+    transition: transform 2s;
+}
+
+#MobileLinksUL {
+    justify-content: space-between;
+    font-family: 'lato-black-italic', sans-serif;
+    text-align: center;
+}
+
+#MobileLinksUL li {
+    text-decoration: none;
+    display: inline-block;
+    color: #fff;
+    margin: 20px auto;
+    cursor: pointer;
+    user-select: none;
+    z-index: 99;
+}
+
+#MobileLinksUL li a {
+    text-decoration: none;
+    display: inline-block;
+    white-space: nowrap;
+    margin-left: 20px;
+    margin-right: 20px;
+    cursor: pointer;
+    user-select: none;
+    z-index: 99;
+    color: #ffffff;
+}
+
+#CloseMenuLliElem {
+    text-align: center;
+}

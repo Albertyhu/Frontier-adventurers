@@ -1,0 +1,17 @@
+.hidden {
+display: none; 
+}
+
+.displayed {
+display: block; 
+}
+
+.displayDesktop {
+    display: flex;
+}
+
+.mobileIcon {
+width: 30px;
+height: 30px; 
+margin: auto;
+}
