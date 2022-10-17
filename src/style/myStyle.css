@@ -366,11 +366,16 @@ margin-left: auto;
 }
 
 #footerLogoCont {
+    display: flex;
+}
+
+#LogoTextAdventures_Footer {
+    color:#ffffff;
 }
 
 #footerLogo {
-    width: 150px;
-    height: 60px;
+    width: 100px;
+    height: 100px;
 }
 
 #copyRightCont {
@@ -544,6 +549,17 @@ margin-left: auto;
     .content {
         background-color: rgba(255,255,255, 1.0);
         padding: 5px;
+    }
+
+    #footer {
+        display: block;
+        
+    }
+    #footerLogoCont {
+        justify-content: center;
+    }
+    .copyRightCont {
+        text-align: center;
     }
 
     @media screen and (max-width: 540px) and (max-height: 540px) {
