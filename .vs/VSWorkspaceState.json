@@ -4,8 +4,9 @@
     "\\dist",
     "\\src",
     "\\src\\images",
-    "\\src\\style"
+    "\\src\\style",
+    "\\webpack_tempate"
   ],
-  "SelectedNode": "\\src\\images\\mountain-tab2 - Copy.jpg",
+  "SelectedNode": "\\src\\style\\myStyle.css",
   "PreviewInSolutionExplorer": false
 }
